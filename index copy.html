@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: #444;
+      color: white;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    aside {
+      width: 200px;
+      background-color: #ddd;
+      padding: 10px;
+    }
+
+    aside h2 {
+      color: #333;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column; /* Stack the items vertically */
+    }
+
+    .flex-box {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    /* Larger box */
+    .flex-box.large {
+      flex: 2.5; /* Adjust the flex value as needed */
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <aside>
+      <h2>Sidebar</h2>
+      <h3>Section 1</h3>
+      <p>Content for section 1.</p>
+      <h3>Section 2</h3>
+      <p>Content for section 2.</p>
+    </aside>
+
+    <main>
+      <div class="flex-box large">
+        <h2>Featured Project</h2>
+        <p>Description of the featured project.</p>
+      </div>
+
+      <div class="flex-box">
+        <h2>Project 1</h2>
+        <p>Description of Project 1.</p>
+      </div>
+
+      <div class="flex-box">
+        <h2>Project 2</h2>
+        <p>Description of Project 2.</p>
+      </div>
+
+      <div class="flex-box">
+        <h2>Project 3</h2>
+        <p>Description of Project 3.</p>
+      </div>
+
+      <div class="flex-box">
+        <h2>Project 4</h2>
+        <p>Description of Project 4.</p>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
+
+
+
+
