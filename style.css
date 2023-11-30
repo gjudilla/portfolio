@@ -64,8 +64,8 @@ h1{
 
 .about{
     width: 100%;
-    padding: 0px;
-    background-color: none;
+    padding: 10px;
+    background: azure;
     position: absolute;
     display: flex;
     align-items: center;
@@ -103,6 +103,53 @@ h1{
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+}
+
+.projects {
+    padding: 850px 0px;
+    width: 100%;
+    background: rgb(166, 207, 207);
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+}
+
+.card {
+    height: 350px;
+    width:350px;
+    padding: 10px 10px;
+    background: azure;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+.card img {
+    height:300px;
+    width:300px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-evenly;
 }
   /* body { 
     margin: 0;
