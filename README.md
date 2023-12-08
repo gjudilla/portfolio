@@ -1,8 +1,8 @@
 # portfolio
-<!-- Replace with updated README -->
+
 ## Description
 
-I was given the source code and design elements from a marketing agency's webpage which was somewhat lacking in accessibility standards. The source code contained several non-semantic elements and redundant structuring, which was remedied by editing tags and selectors within the HTML and CSS source code. The webpage did not contain all working links and an identifiable title, which was edited within the HTML code as well. The codebase is now more accessible and the webpage is optimized for search engines.
+Using the skills I recently gained from my HTML and CSS courses in my coding bootcamp, I created an interactive Portfolio webpage so that any visitors to my site can learn more about me, click through my projects and resume, and have a means to contact me. 
 
 ## Installation
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To use this webpage, click the links on the navigation bar to move through the page and reach the designated sections of the page. Browse the content on the webpage to explore the agency's marketing strategies. To view the semantic elements and changes made within the codebase, right click the webpage and click "Inspect" to open ChromeDevTools. Alternatively, use Command+Option+I on Mac or Command+Shift+I to open a panel with the codebase.
+To use this webpage, click the links on the navigation bar to move through the page and reach the designated sections of the page. Browse the content on the webpage to learn more about me, click through my recent projects, and contact me. Click each image in the Projects Page to see my deployed projects. Send me a message or reach out to me by filling out the inputs on the Contact Me section. Note: form is not currently functional and LinkedIn/resume is not up to date. 
 
 To view the website, click this link: http://127.0.0.1:5501/02-Challenge/Develop/index.html
 
